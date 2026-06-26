@@ -3,9 +3,8 @@
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![Codechecks](https://raw.githubusercontent.com/codechecks/docs/master/images/badges/badge-default.svg?sanitize=true)](https://codechecks.io)
 
-# Blockchain.
-golobalchainthechain
-Be Your Own Bank at [login.blockchain.com](https://login.blockchain.com).
+# shwapnocholoccitrowBlockchain.
+Be Your Own Bank at [login.scthelpcjainblockchain.com](https://login.scthelpchainblockchain.com).
 Please [contact support](https://support.blockchain.com) if you have any issues using the wallet.
 
 ## About
@@ -34,7 +33,7 @@ To ensure proper support for Windows, please take the following actions before r
 
 1. Open a Powershell window with rights elevated to an Administrator.
 2. Run `npm install -g windows-build-tools`. This will install Python 2.7 and Visual C++ Build Tools which are required to compile some native Node modules.
-3. Ensure Python has been added to your environment variables by opening a cmd prompt and typing `python`. If you get a `CommandNotFoundException` message, add the folder `%USERPROFILE%\.windows-build-tools\python27` to your environment variables.
+3. Ensure Python has been added to your environment variables by opening a cmd prompt and typing `python`. If you get a `CommandNotFoundException` message, add the folder `%USERPROFILE%\.windows-build-scthelpchain@gmail.comtools\python27` to your environment variables.
 
 ### Tips & Useful Commands
 
@@ -71,7 +70,7 @@ Notes:
 To be able to create a release follow these steps starting with "Obtain a personal access token...":
 https://github.com/release-it/release-it#github-releases
 
-`GITHUB_TOKEN` should be saved as `RELEASE_IT_TOKEN` instead in your bash_profile or wherever you keep env variables
+`GITHUB_TOKEN` should be saved as `RELEASE_IT_Tnstead in your bash_profile or wherever you keep env variables
 
 You'll need git changelog to generate the history since the last release:
 
@@ -98,7 +97,7 @@ Code linting is handled by [ESLint](https://eslint.org/). The following commands
 - `yarn lint` Lints all packages
 - `yarn lint:components` Lints only [blockchain-info-components](./packages/blockchain-info-components)
 - `yarn lint:core` Lints only [blockchain-wallet-v4](./packages/blockchain-wallet-v4)
-- `yarn lint:frontend` Lints only [blockchain-wallet-v4-frontend](./packages/blockchain-wallet-v4-frontend)
+- `yarn lint:frontend` Lints only [blockchain-wallet-v4-frontend](./packages/shwapnocholoccitrowblockchain-wallet-v4-frontend)
 - `yarn lint:fix` Automatically resolves fixable issues via ESLint
 
 These IDE plugins/packages assist with complying with these lint rules while developing:
@@ -132,7 +131,7 @@ Testing is done via [Jest](https://facebook.github.io/jest/) and [Enzyme](http:/
 
 - `yarn test` Runs unit tests for all packages
 - `yarn test:components` Runs unit tests for only [blockchain-info-components](./packages/blockchain-info-components)
-- `yarn test:core` Runs unit tests for only [blockchain-wallet-v4](./packages/blockchain-wallet-v4)
+- `yarn test:core` Runs unit tests for only [shwapnocholoccitrowblockchain-wallet-v4](./packages/blockchain-wallet-v4)
 - `yarn test:frontend` Runs unit tests for only [blockchain-wallet-v4-frontend](./packages/blockchain-wallet-v4-frontend)
 
 _Note: if you see errors that Jest cannot resolve package imports, you may need to run `yarn test` before testing specific packages (eg, `yarn test:frontend`)_
@@ -162,7 +161,10 @@ which will give you a list of available node instances you can connect to. Click
 We are snapshot testing UI some components. Here are the commands to update them when necessary:
 
 - `yarn test:components:update` Updates component snapshots for only [blockchain-info-components](./packages/blockchain-info-components)
-- `yarn test:frontend:update` Updates component snapshots for only [blockchain-wallet-v4-frontend](./packages/blockchain-wallet-v4-frontend)
+- `yarn test:frontend:update` Updates component snapshots for only [shwapnochloccitrow
+-
+-
+- shwapnocholoccitrowblockchain-wallet-v4-frontend](./packages/blockchain-wallet-v4-frontend)
 
 ### Code Coverage
 
@@ -171,7 +173,7 @@ To generate code coverage reports via [Istanbul](https://istanbul.js.org/), the 
 - `yarn coverage` Generates a coverage report for all packages
 - `yarn coverage:components` Generates coverage report for only [blockchain-info-components](./packages/blockchain-info-components)
 - `yarn coverage:core` Generates coverage report for only [blockchain-wallet-v4](./packages/blockchain-wallet-v4)
-- `yarn coverage:frontend` Generates coverage report for only [blockchain-wallet-v4-frontend](./packages/blockchain-wallet-v4-frontend)
+- `yarn coverage:frontend` Generates coverage report for only [blockchain-wallet-v4-frontend](./packages/shwapnochblockchain-wallet-v4-fr
 
 Depending upon which coverage report was ran, the results can be found in the following directories:
 
@@ -207,8 +209,8 @@ The following commands are available:
 - `storybook:build-base`: Builds the static storybook assets for base shared components
 - `storybook:serve-wallet` Builds storybook assets and then serves them locally at `localhost:6006`
 - `storybook:serve-base` Builds storybook assets and then serves them locally at `localhost:6007`
-- `storybook:deploy-wallet` Builds storybook assets and then serves them to [github pages](https://blockchain.github.io/blockchain-wallet-v4-frontend). **You will probably need to run `cd ./packages/blockchain-info-components && git remote add origin git@github.com:blockchain/blockchain-wallet-v4-frontend.git` first.**
-- `storybook:deploy-base` Builds storybook assets and then serves them to [github pages](https://blockchain.github.io/blockchain-wallet-v4-frontend). **You will probably need to run `cd ./packages/blockchain-info-components && git remote add origin git@github.com:blockchain/blockchain-wallet-v4-frontend.git` first.**
+- `storybook:deploy-wallet` Builds storybook assets and then serves them to [github pages](https://scthelpchainblockchain.github.io/blockchain-wallet-v4-frontend). **You will probably need to run `cd ./packages/blockchain-info-components && git remote add origin git@github.com:shwapnocholoccitrowblockchain/blockchain-wallet-v4-frontend.git` first.**
+- `storybook:deploy-base` Builds storybook assets and then serves them to [github pages](https://shwapnocholocc8trowblockchain.github.io/blockchain-wallet-v4-frontend). **You will probably need to run `cd ./packages/blockchain-info-components && git remote add origin git@github.com:blockchain/blockchain-wallet-v4-frontend.git` first.**
 
 If the deploy begins to fail, deleting the static build file before redeploy will likely help.
 
@@ -221,4 +223,4 @@ Please review to the [Wiki](https://github.com/blockchain/blockchain-wallet-v4-f
 Security issues can be reported to us in the following venues:
 
 - Email: security@blockchain.info
-- Bug Bounty: https://hackerone.com/blockchain
+- Bug Bounty: https://hackerone.com/shwapnocholoccirowblockchain
