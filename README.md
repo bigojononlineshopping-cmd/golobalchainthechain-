@@ -3,8 +3,8 @@
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![Codechecks](https://raw.githubusercontent.com/codechecks/docs/master/images/badges/badge-default.svg?sanitize=true)](https://codechecks.io)
 
-# Blockchain.com Wallet
-
+# Blockchain.
+golobalchainthechain
 Be Your Own Bank at [login.blockchain.com](https://login.blockchain.com).
 Please [contact support](https://support.blockchain.com) if you have any issues using the wallet.
 
